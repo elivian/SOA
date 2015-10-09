@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\alje">
+      <UniqueIdentifier>{f5e094f1-c2e6-4642-91b1-d1009554c538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\soa1">
+      <UniqueIdentifier>{4df833b9-ff42-4a5a-ad23-f2101ee2ef00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\soa1\dem">
+      <UniqueIdentifier>{e1de2a9d-5888-444d-affd-8b4381822626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\soa1\rg">
+      <UniqueIdentifier>{f69b87c3-83dc-4870-bb75-176bc8ccef56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\soa1\sv">
+      <UniqueIdentifier>{50dfd5dc-4161-4fb6-807e-1841c80f5d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\soa1\rg\mm">
+      <UniqueIdentifier>{c3595e7b-e95e-41fe-9831-fd4641da5b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\soa1\rg\dur">
+      <UniqueIdentifier>{b6def8f3-b68b-4084-b19e-daf57b833642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\soa1\rg\start">
+      <UniqueIdentifier>{f0e00f9e-e46c-432e-9eaa-b2cc4183c393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\soa1\tr">
+      <UniqueIdentifier>{d2df0910-5029-44de-ae5b-a3a6d03051aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\soa1\dpt">
+      <UniqueIdentifier>{85a8c901-dfea-4d8a-a3b8-bbc0f97e398e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Alje\alje_event.h">
+      <Filter>Header Files\alje</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Alje\alje_event_manager.h">
+      <Filter>Header Files\alje</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Alje\alje_process_x.h">
+      <Filter>Header Files\alje</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Alje\alje_rng_seed_generator.h">
+      <Filter>Header Files\alje</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_export_results.h">
+      <Filter>Header Files\soa1</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_parameters_pack.h">
+      <Filter>Header Files\soa1</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_simulation.h">
+      <Filter>Header Files\soa1</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_dem_add_death_event.h">
+      <Filter>Header Files\soa1\dem</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_dem_births.h">
+      <Filter>Header Files\soa1\dem</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_dem_ev_death.h">
+      <Filter>Header Files\soa1\dem</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_dem_populate.h">
+      <Filter>Header Files\soa1\dem</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_ev_start_relation.h">
+      <Filter>Header Files\soa1\rg</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_sv_person.h">
+      <Filter>Header Files\soa1\sv</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_sv_person_event_codes.h">
+      <Filter>Header Files\soa1\sv</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_sv_person_list.h">
+      <Filter>Header Files\soa1\sv</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_sv_priority_list.h">
+      <Filter>Header Files\soa1\sv</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_sv_relation.h">
+      <Filter>Header Files\soa1\sv</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_sv_relation_event_codes.h">
+      <Filter>Header Files\soa1\sv</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_sv_relation_list.h">
+      <Filter>Header Files\soa1\sv</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_sv_state.h">
+      <Filter>Header Files\soa1\sv</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_temp_export.h">
+      <Filter>Header Files\soa1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Alje\alje_pdf_vector_functions.h">
+      <Filter>Header Files\alje</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Alje\alje_process_x_generator.h">
+      <Filter>Header Files\alje</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_mm_group_dimension_exact.h">
+      <Filter>Header Files\soa1\rg\mm</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_mm_group_dimension_normal.h">
+      <Filter>Header Files\soa1\rg\mm</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_mm_group_handler.h">
+      <Filter>Header Files\soa1\rg\mm</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_mm_link_handler.h">
+      <Filter>Header Files\soa1\rg\mm</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_mm_matchmaker.h">
+      <Filter>Header Files\soa1\rg\mm</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_mm_partner_choice_matrix.h">
+      <Filter>Header Files\soa1\rg\mm</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_mm_relation_request.h">
+      <Filter>Header Files\soa1\rg\mm</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_mm_robustness_check.h">
+      <Filter>Header Files\soa1\rg\mm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ALJE\alje_historic_exponential_weighting.h">
+      <Filter>Header Files\alje</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ALJE\alje_multiset_size2.h">
+      <Filter>Header Files\alje</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_add_relation_request.h">
+      <Filter>Header Files\soa1\rg</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_add_relation.h">
+      <Filter>Header Files\soa1\rg</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_dur_distribution.h">
+      <Filter>Header Files\soa1\rg\dur</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_dur_get_duration.h">
+      <Filter>Header Files\soa1\rg\dur</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_dur_values_to_percentiles.h">
+      <Filter>Header Files\soa1\rg\dur</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_start_next_relation_person_time.h">
+      <Filter>Header Files\soa1\rg\start</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_start_rate_given_age_formula.h">
+      <Filter>Header Files\soa1\rg\start</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Alje\alje_distribution_free_association.h">
+      <Filter>Header Files\soa1\rg\dur</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_add_relation_end_event.h">
+      <Filter>Header Files\soa1\rg</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_ev_end_relation.h">
+      <Filter>Header Files\soa1\rg</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_sv_person_gonorrhea_status.h">
+      <Filter>Header Files\soa1\sv</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_sv_person_hiv_status.h">
+      <Filter>Header Files\soa1\sv</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_tr_coordinate.h">
+      <Filter>Header Files\soa1\tr</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_tr_create_multiplication_layer.h">
+      <Filter>Header Files\soa1\tr</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_tr_get_transmission_time.h">
+      <Filter>Header Files\soa1\tr</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_tr_hiv_layer.h">
+      <Filter>Header Files\soa1\tr</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_tr_layer.h">
+      <Filter>Header Files\soa1\tr</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_tr_layer_assert_correct.h">
+      <Filter>Header Files\soa1\tr</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_tr_layer_move_forward.h">
+      <Filter>Header Files\soa1\tr</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_tr_sexual_behavior_layer.h">
+      <Filter>Header Files\soa1\tr</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_tr_transmission.h">
+      <Filter>Header Files\soa1\tr</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_tr_update_hiv_transmission_event.h">
+      <Filter>Header Files\soa1\tr</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_tr_ev_hiv_transmission.h">
+      <Filter>Header Files\soa1\tr</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_tr_hiv_infect_person.h">
+      <Filter>Header Files\soa1\tr</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_tr_ev_gn_transmission.h">
+      <Filter>Header Files\soa1\tr</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_tr_gn_infect_person.h">
+      <Filter>Header Files\soa1\tr</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_tr_update_gn_transmission_event.h">
+      <Filter>Header Files\soa1\tr</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_tr_gn_layer.h">
+      <Filter>Header Files\soa1\tr</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_dpt_ev_gn_natural_cure.h">
+      <Filter>Header Files\soa1\dpt</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_dpt_gn_cure.h">
+      <Filter>Header Files\soa1\dpt</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_dpt_add_cure_event.h">
+      <Filter>Header Files\soa1\dpt</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_dem_ev_births.h">
+      <Filter>Header Files\soa1\dem</Filter>
+    </ClInclude>
+    <ClInclude Include="soa1_rg_ev_matchmaking.h">
+      <Filter>Header Files\soa1\rg</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

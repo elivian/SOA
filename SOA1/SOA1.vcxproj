@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{99B64C46-1F50-4D2C-B2EB-7374C85F40FA}</ProjectGuid>
+    <RootNamespace>SOA1</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>P:\Users\boschvda\Dropbox\VS 2012 projects\boost_1_58_0;P:\Users\boschvda\Dropbox\VS 2012 projects\Alje;C:\Users\Alje\Dropbox\VS 2012 projects\ALJE;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>P:\Users\boschvda\Dropbox\VS 2012 projects\boost_1_58_0;P:\Users\boschvda\Dropbox\VS 2012 projects\Alje;C:\Users\Alje\Dropbox\VS 2012 projects\ALJE;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Alje\Dropbox\VS 2012 projects\boost_1_58_0;P:\Users\boschvda\Dropbox\VS 2012 projects\boost_1_58_0;P:\Users\boschvda\Dropbox\VS 2012 projects\Alje;C:\Users\Alje\Dropbox\VS 2012 projects\ALJE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <Profile>false</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Alje\Dropbox\VS 2012 projects\boost_1_58_0;P:\Users\boschvda\Dropbox\VS 2012 projects\boost_1_58_0;P:\Users\boschvda\Dropbox\VS 2012 projects\Alje;C:\Users\Alje\Dropbox\VS 2012 projects\ALJE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Alje\alje_distribution_free_association.h" />
+    <ClInclude Include="..\..\Alje\alje_event.h" />
+    <ClInclude Include="..\..\Alje\alje_event_manager.h" />
+    <ClInclude Include="..\..\ALJE\alje_historic_exponential_weighting.h" />
+    <ClInclude Include="..\..\ALJE\alje_multiset_size2.h" />
+    <ClInclude Include="..\..\Alje\alje_pdf_vector_functions.h" />
+    <ClInclude Include="..\..\Alje\alje_process_x_generator.h" />
+    <ClInclude Include="..\..\Alje\alje_rng_seed_generator.h" />
+    <ClInclude Include="..\..\Alje\alje_process_x.h" />
+    <ClInclude Include="soa1_dem_add_death_event.h" />
+    <ClInclude Include="soa1_dem_births.h" />
+    <ClInclude Include="soa1_dem_ev_births.h" />
+    <ClInclude Include="soa1_dem_ev_death.h" />
+    <ClInclude Include="soa1_dpt_add_cure_event.h" />
+    <ClInclude Include="soa1_dpt_ev_gn_natural_cure.h" />
+    <ClInclude Include="soa1_dpt_gn_cure.h" />
+    <ClInclude Include="soa1_export_results.h" />
+    <ClInclude Include="soa1_rg_add_relation.h" />
+    <ClInclude Include="soa1_rg_add_relation_end_event.h" />
+    <ClInclude Include="soa1_rg_add_relation_request.h" />
+    <ClInclude Include="soa1_rg_dur_distribution.h" />
+    <ClInclude Include="soa1_rg_dur_get_duration.h" />
+    <ClInclude Include="soa1_rg_dur_values_to_percentiles.h" />
+    <ClInclude Include="soa1_rg_ev_end_relation.h" />
+    <ClInclude Include="soa1_rg_ev_matchmaking.h" />
+    <ClInclude Include="soa1_rg_ev_start_relation.h" />
+    <ClInclude Include="soa1_rg_mm_group_dimension_exact.h" />
+    <ClInclude Include="soa1_rg_mm_group_dimension_normal.h" />
+    <ClInclude Include="soa1_rg_mm_group_handler.h" />
+    <ClInclude Include="soa1_rg_mm_link_handler.h" />
+    <ClInclude Include="soa1_rg_mm_matchmaker.h" />
+    <ClInclude Include="soa1_rg_mm_partner_choice_matrix.h" />
+    <ClInclude Include="soa1_rg_mm_relation_request.h" />
+    <ClInclude Include="soa1_rg_mm_robustness_check.h" />
+    <ClInclude Include="soa1_sv_person_event_codes.h" />
+    <ClInclude Include="soa1_sv_person_gonorrhea_status.h" />
+    <ClInclude Include="soa1_sv_person_hiv_status.h" />
+    <ClInclude Include="soa1_sv_priority_list.h" />
+    <ClInclude Include="soa1_sv_relation_event_codes.h" />
+    <ClInclude Include="soa1_sv_relation_list.h" />
+    <ClInclude Include="soa1_simulation.h" />
+    <ClInclude Include="soa1_sv_person.h" />
+    <ClInclude Include="soa1_sv_person_list.h" />
+    <ClInclude Include="soa1_sv_relation.h" />
+    <ClInclude Include="soa1_sv_state.h" />
+    <ClInclude Include="soa1_dem_populate.h" />
+    <ClInclude Include="soa1_parameters_pack.h" />
+    <ClInclude Include="soa1_rg_start_rate_given_age_formula.h" />
+    <ClInclude Include="soa1_rg_start_next_relation_person_time.h" />
+    <ClInclude Include="soa1_temp_export.h" />
+    <ClInclude Include="soa1_tr_coordinate.h" />
+    <ClInclude Include="soa1_tr_create_multiplication_layer.h" />
+    <ClInclude Include="soa1_tr_ev_gn_transmission.h" />
+    <ClInclude Include="soa1_tr_ev_hiv_transmission.h" />
+    <ClInclude Include="soa1_tr_get_transmission_time.h" />
+    <ClInclude Include="soa1_tr_gn_infect_person.h" />
+    <ClInclude Include="soa1_tr_gn_layer.h" />
+    <ClInclude Include="soa1_tr_hiv_layer.h" />
+    <ClInclude Include="soa1_tr_hiv_infect_person.h" />
+    <ClInclude Include="soa1_tr_layer.h" />
+    <ClInclude Include="soa1_tr_layer_assert_correct.h" />
+    <ClInclude Include="soa1_tr_layer_move_forward.h" />
+    <ClInclude Include="soa1_tr_sexual_behavior_layer.h" />
+    <ClInclude Include="soa1_tr_transmission.h" />
+    <ClInclude Include="soa1_tr_update_gn_transmission_event.h" />
+    <ClInclude Include="soa1_tr_update_hiv_transmission_event.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
